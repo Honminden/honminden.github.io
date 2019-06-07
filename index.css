@@ -1,0 +1,52 @@
+*
+{
+	margin: 0;
+}
+
+html
+{
+	background-color: #333333;
+	color: #ffffff;
+}
+
+hr
+{
+	border-color: #000000;
+}
+
+header
+{
+	padding: 10vw;
+}
+
+main
+{
+	padding: 5vw;
+}
+
+footer
+{
+	font-size: small;
+	color: #ffffaa;
+}
+
+img
+{
+	max-width: 5vw;
+	max-height: 5vw;
+}
+
+a
+{
+	color: #ffaaaa;
+}
+
+a:hover
+{
+	color: #ffcccc;
+}
+
+a:visited
+{
+	color: #ffccaa;
+}
