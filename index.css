@@ -23,12 +23,12 @@ hr
 
 header
 {
-	padding: 10vw;
+	padding: 10vh 10vw;
 }
 
 main
 {
-	padding: 5vw;
+	padding: 5vh 5vw;
 }
 
 footer
@@ -45,6 +45,8 @@ img
 
 a
 {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 	color: #ffaaaa;
 }
 
@@ -56,4 +58,49 @@ a:hover
 a:visited
 {
 	color: #ffccaa;
+}
+
+nav.top
+{
+	position: relative;
+	left: 0;
+	right: 0;
+	padding: 0.5em;
+	background-color: #666666;
+}
+
+nav.top a
+{
+	padding: 0.5em;
+	
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav.top a:hover
+{
+    background-color: #ffffff;
+	
+	color: #000000;
+}
+
+audio
+{
+	padding: 0.5em;
+}
+
+section.block
+{
+	border: #cccccc 4px dashed;
+	padding: 1em;
+}
+
+aside.right
+{
+	float: right;
+}
+
+aside.huge
+{
+	font-size: 3em;
 }
