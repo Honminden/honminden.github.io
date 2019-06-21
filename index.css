@@ -26,6 +26,16 @@ header
 	padding: 10vh 10vw;
 }
 
+header.red
+{
+	background: linear-gradient(#333333, #993333, #333333);
+}
+
+header.purple
+{
+	background: linear-gradient(#333333, #663399, #333333);
+}
+
 main
 {
 	padding: 5vh 5vw;
@@ -62,11 +72,11 @@ a:visited
 
 nav.top
 {
-	position: relative;
+	position: absolute;
+	top: 0;
 	left: 0;
 	right: 0;
 	padding: 0.5em;
-	background-color: #666666;
 }
 
 nav.top a
