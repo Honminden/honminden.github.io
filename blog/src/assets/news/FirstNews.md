@@ -1,2 +1,2 @@
-# Important News Will Come Here
-I will publish development news, my latest work and so on in "News" section. Keep following and have fun!
+# News Module Is Now Available
+You can find **development news** and other important **announcements** here.

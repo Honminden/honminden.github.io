@@ -16,10 +16,10 @@ export const articles = [
 export const news = [
     {
         id: "90000",
-        title: "Important News Will Come Here",
+        title: "News Module Is Now Available",
         author: "Honminden",
         createTime: "2021.07.07",
         editTime: "2021.07.07",
-        description: "More news will come soon!"
+        description: "You can find development news and other important announcements here."
     }
 ]
