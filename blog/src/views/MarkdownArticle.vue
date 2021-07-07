@@ -1,6 +1,7 @@
 <template>
   <div class="markdownArticles">
-    <div id="docContainer" class="p-2"></div>
+    <a href="#" @click="$router.go(-1)">Back</a>
+    <div id="docContainer" class="mt-4 p-2"></div>
   </div>
 </template>
 
