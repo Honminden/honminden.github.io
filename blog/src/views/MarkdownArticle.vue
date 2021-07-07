@@ -1,6 +1,6 @@
 <template>
   <div class="markdownArticles">
-    <div id="docContainer"></div>
+    <div id="docContainer" class="p-2"></div>
   </div>
 </template>
 
@@ -21,3 +21,10 @@ export default {
   },
 }
 </script>
+
+<style>
+#docContainer img
+{
+  max-width: 60vw;
+}
+</style>
