@@ -9,16 +9,15 @@ import ArticleManager from '@/utils/articleManager'
 
 export default {
   name: 'MarkdownArticle',
+  props: ["id", "category"],
   data() {
     return {
-      articleManager: null,
-      id: ""
+      articleManager: null
     }
   },
   mounted() {
     this.articleManager = new ArticleManager();
-    this.id = this.$route.params.id;
-    document.getElementById("docContainer").innerHTML = this.articleManager.getMarkdownArticle(this.id);
+    document.getElementById("docContainer").innerHTML = this.articleManager.getMarkdownArticle(this.category, this.id);
   },
 }
 </script>

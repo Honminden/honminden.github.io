@@ -23,10 +23,15 @@ export default {
 	data() {
 		return {
 			items: [
+        {
+          id: "news",
+          text: "News",
+          link: "/articles/news"
+        },
 				{
 					id: "articles",
 					text: "Articles",
-					link: "/articles"
+					link: "/articles/article"
 				},
 				{
 					id: "lab",

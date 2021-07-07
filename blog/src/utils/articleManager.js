@@ -14,14 +14,19 @@ export default class ArticleManager
         return this.meta.articles;
     }
 
-    getRawArticle(id)
+    getNewsMeta()
     {
-        return this.meta[`article${id}`];
+        return this.meta.news;
     }
 
-    getMarkdownArticle(id)
+    getRawArticle(category, id)
     {
-        return this.convertMarkdown2Html(this.getRawArticle(id));
+        return this.meta[`${category}${id}`];
+    }
+
+    getMarkdownArticle(category, id)
+    {
+        return this.convertMarkdown2Html(this.getRawArticle(category, id));
     }
 
     convertMarkdown2Html(text)

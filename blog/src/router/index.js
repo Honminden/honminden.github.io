@@ -12,7 +12,8 @@ const routes = [
     component: FrontPage
   },
   {
-    path: '/articles',
+    path: '/articles/:category',
+    props: true,
     name: 'Articles',
     component: Articles
   },
@@ -27,7 +28,8 @@ const routes = [
     component: About
   },
   {
-    path: '/markdownarticle/:id',
+    path: '/markdownarticle/:category/:id',
+    props: true,
     name: 'MarkdownArticle',
     component: MarkdownArticle
   }
