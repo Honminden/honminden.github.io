@@ -2,17 +2,18 @@
   <div class="articles">
     <h2 v-if="category == 'article'">Articles</h2>
     <h2 v-if="category == 'news'">News</h2>
-    <div v-if="articleManager != null">
+    <div v-if="articleManager != null" class="my-2">
       <div v-for="(meta, idx) in getMeta()" v-bind:key="idx">
-        <router-link :to="`/markdownArticle/${category}/${meta.id}`">
-          <h3>{{ meta.title }}</h3>
-        </router-link>
-        <small>
-          <span>作者：{{ meta.author }}</span>
-          <span>发布时间{{ meta.createTime }}</span>
-          <span>更新时间：{{ meta.editTime }}</span>
-        </small>
-        <p>{{ meta.description }}</p>
+          <div class="card bg-light text-center m-4 p-4">
+            <h3 class="card-title">{{ meta.title }}</h3>
+            <p class="card-subtitle text-muted">by {{ meta.author }}</p>
+            <p class="card-subtitle text-muted">created on {{ meta.createTime }}</p>
+            <p class="card-subtitle text-muted">edited on {{ meta.editTime }}</p>
+            <p class="card-body">{{ meta.description }}</p>
+            <router-link 
+              :to="`/markdownArticle/${category}/${meta.id}`" 
+              class="stretched-link"></router-link>
+          </div>
       </div>
     </div>
   </div>
@@ -50,3 +51,15 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.articles *
+{
+  text-decoration: none;
+}
+.card:hover
+{
+  color: #909090;
+  box-shadow: 0 0 0.5em #C0C0C0;
+}
+</style>
