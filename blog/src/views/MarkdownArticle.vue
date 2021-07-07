@@ -27,4 +27,18 @@ export default {
 {
   max-width: 60vw;
 }
+
+#docContainer code
+{
+  background-color: #303030;
+  color: #c0c0c0;
+
+  display: block;
+  padding: 1em;
+}
+
+#docContainer code:hover
+{
+  color: #ffffff;
+}
 </style>
