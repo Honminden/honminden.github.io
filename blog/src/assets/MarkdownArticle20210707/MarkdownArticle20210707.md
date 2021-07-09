@@ -45,6 +45,8 @@ console.log(meta['article0'])
 This is from Honminden!
 ```
 
+---
+
 ## 使用showdown将md转换为HTML格式
 
 showdown是一个将Markdown文本转换为HTML格式的转换器，虽然很久没有更新了，但也已经比较好用。
@@ -90,8 +92,6 @@ document.getElementById("docContainer").innerHTML = this.articleManager.getMarkd
 
 有个简单的解决办法，就是把图片复制到public目录下面，然后修改md文件里图片的URL指向这个文件，比如/image/Spring210702/spring_initializer.png（注意没有.），这种办法虽然每次都要改链接，但在代码上不需要额外解决，算是一个便利办法。
 
----
-
 ### 注意代码块格式
 
 showdown默认输出的代码块是下面这种格式；
@@ -100,4 +100,4 @@ showdown默认输出的代码块是下面这种格式；
 <pre><code>somecode</code></pre>
 ```
 
-默认样式是inline的，可以通过display: block改成块状。
+默认样式是inline的，可以通过对pre code设置display: block改成块状。
