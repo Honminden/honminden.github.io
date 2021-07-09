@@ -1,0 +1,51 @@
+{
+  "name": "Honminden",
+  "aliases": [
+    "红明灯",
+    "洪铭登",
+    "红毛丹"
+  ],
+  "description": "Software engineering undergraduate",
+  "fields": [
+    {
+      "name": "PL Preferences",
+      "value": {
+        "text": "Java, Python, SQL, Html+CSS+Javascript"
+      }
+    },
+    {
+      "name": "Interested Fields",
+      "value": {
+        "text": "Web, Data processing, Machine Learning"
+      }
+    },
+    {
+      "name": "Location",
+      "value": {
+        "text": "Shanghai, China"
+      }
+    },
+    {
+      "name": "Email",
+      "value": {
+        "text": "honminden@outlook.com"
+      }
+    }
+  ],
+  "links": [
+    {
+      "name": "Github",
+      "value": {
+        "to": "https://github.com/Honminden",
+        "text": "Honminden's Github"
+      }
+    },
+    {
+      "name": "LinkedIn",
+      "value": {
+        "to": "https://www.linkedin.com/in/anqi-shi-785962202/",
+        "text": "LinkedIn page"
+      }
+    }
+  ]
+}
