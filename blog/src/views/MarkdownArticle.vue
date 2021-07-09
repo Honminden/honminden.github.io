@@ -33,12 +33,29 @@ export default {
 {
   background-color: #303030;
   color: #c0c0c0;
-
-  display: block;
-  padding: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
 }
 
-#docContainer code:hover
+/* code block */
+#docContainer pre
+{
+  background-color: #303030;
+  padding: 1em;
+  margin: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#docContainer pre code
+{
+  background-color: transparent;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+#docContainer pre:hover code
 {
   color: #ffffff;
 }
