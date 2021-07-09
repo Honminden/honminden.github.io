@@ -1,5 +1,6 @@
 export {default as article0} from "raw-loader!@/assets/Hello.md"
 export {default as article1} from "raw-loader!@/assets/Spring210702/Spring210702.md"
+export {default as article2} from "raw-loader!@/assets/MarkdownArticle20210707/MarkdownArticle20210707.md"
 
 export {default as news90000} from "raw-loader!@/assets/news/FirstNews.md"
 
@@ -19,6 +20,14 @@ export const articles = [
         createTime: "2021.07.07",
         editTime: "2021.07.07",
         description: "总结一下从头开始搭建一个Spring项目过程中踩的一些坑和其它经验。"
+    },
+    {
+        id: "2",
+        title: "如何搭建一个简单的Markdown博客",
+        author: "Honminden",
+        createTime: "2021.07.09",
+        editTime: "2021.07.09",
+        description: "着重讲一下如何使用raw-loader和showdown来导入并转换HTML"
     }
 ]
 
