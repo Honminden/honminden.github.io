@@ -30,8 +30,11 @@ export default class HonStorage
         {
             this.db = JSON.parse(localStorage.getItem(this.meta.name));
         }
-        catch (e) {}
-        if (!this.db instanceof Object)
+        catch (e)
+        {
+            // do nothing
+        }
+        if (!(this.db instanceof Object))
         {
             // cases:
             // 1. key not found in localStorage
@@ -61,8 +64,11 @@ export default class HonStorage
         {
             this.db = JSON.parse(localStorage.getItem(this.meta.name));
         }
-        catch (e) {}
-        if (!this.db instanceof Object)
+        catch (e)
+        {
+            // do nothing
+        }
+        if (!(this.db instanceof Object))
         {
             // case: db corruption during usage
             throw Error("rollback failure due to corruption of stored data");
@@ -186,7 +192,7 @@ export default class HonStorage
     {
         let pack = this.fetch(key);
         pack.content = value;
-        pack.lastModified = new Date();
+        pack.meta.lastModified = new Date();
     }
 
     /**
