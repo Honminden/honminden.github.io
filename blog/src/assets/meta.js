@@ -28,6 +28,14 @@ export const articles = [
         createTime: "2021.07.09",
         editTime: "2021.07.09",
         description: "着重讲一下如何使用raw-loader和showdown来导入并转换HTML"
+    },
+    {
+        id: "3",
+        title: "nuScenes数据集-通过命令行下载",
+        author: "Honminden",
+        createTime: "2022.09.07",
+        editTime: "2022.09.07",
+        description: "介绍download-nuscenes"
     }
 ]
 
