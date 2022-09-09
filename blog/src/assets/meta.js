@@ -1,6 +1,7 @@
 export {default as article0} from "raw-loader!@/assets/Hello.md"
 export {default as article1} from "raw-loader!@/assets/Spring210702/Spring210702.md"
 export {default as article2} from "raw-loader!@/assets/MarkdownArticle20210707/MarkdownArticle20210707.md"
+export {default as article3} from "raw-loader!@/assets/NuscenesDownload20220907/NuscenesDownload20220907.md"
 
 export {default as news90000} from "raw-loader!@/assets/news/FirstNews.md"
 
