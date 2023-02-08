@@ -2,6 +2,7 @@ export {default as article0} from "raw-loader!@/assets/Hello.md"
 export {default as article1} from "raw-loader!@/assets/Spring210702/Spring210702.md"
 export {default as article2} from "raw-loader!@/assets/MarkdownArticle20210707/MarkdownArticle20210707.md"
 export {default as article3} from "raw-loader!@/assets/NuscenesDownload20220907/NuscenesDownload20220907.md"
+export {default as article4} from "raw-loader!@/assets/Whisper20230208/Whisper20230208.md"
 
 export {default as news90000} from "raw-loader!@/assets/news/FirstNews.md"
 
@@ -37,6 +38,14 @@ export const articles = [
         createTime: "2022.09.07",
         editTime: "2022.09.07",
         description: "介绍download-nuscenes"
+    },
+    {
+        id: "4",
+        title: "使用Whisper开源模型提取会议记录",
+        author: "Honminden",
+        createTime: "2023.02.08",
+        editTime: "2023.02.08",
+        description: "通过whisper语音识别实现会议记录生成"
     }
 ]
 
