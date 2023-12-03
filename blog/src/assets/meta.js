@@ -3,6 +3,7 @@ export {default as article1} from "raw-loader!@/assets/Spring210702/Spring210702
 export {default as article2} from "raw-loader!@/assets/MarkdownArticle20210707/MarkdownArticle20210707.md"
 export {default as article3} from "raw-loader!@/assets/NuscenesDownload20220907/NuscenesDownload20220907.md"
 export {default as article4} from "raw-loader!@/assets/Whisper20230208/Whisper20230208.md"
+export {default as article5} from "raw-loader!@/assets/HDMap20231203/HDMap20231203.md"
 
 export {default as news90000} from "raw-loader!@/assets/news/FirstNews.md"
 
@@ -46,6 +47,14 @@ export const articles = [
         createTime: "2023.02.08",
         editTime: "2023.02.08",
         description: "通过whisper语音识别实现会议记录生成"
+    },
+    {
+        id: "5",
+        title: "高精地图awesome项目发布",
+        author: "Honminden",
+        createTime: "2023.12.03",
+        editTime: "2023.12.03",
+        description: "Github awesome-hd-map-construction仓库发布的相关说明"
     }
 ]
 
