@@ -40,6 +40,11 @@ export default {
 </script>
 
 <style scoped>
+*
+{
+  white-space: pre-wrap;
+}
+
 a.list-group-item p
 {
   text-decoration-line: underline;

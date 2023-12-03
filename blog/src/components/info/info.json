@@ -5,7 +5,7 @@
     "洪铭登",
     "红毛丹"
   ],
-  "description": "Software engineering undergraduate",
+  "description": "undergraduate, FDU Software Engineering\nmaster student, FDU Computer Science",
   "fields": [
     {
       "name": "PL Preferences",
@@ -16,7 +16,7 @@
     {
       "name": "Interested Fields",
       "value": {
-        "text": "Web, Data processing, Machine Learning"
+        "text": "Web, Data processing, Computer Vision, HD Map Construction"
       }
     },
     {
