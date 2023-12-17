@@ -6,6 +6,7 @@ export {default as article4} from "raw-loader!@/assets/Whisper20230208/Whisper20
 export {default as article5} from "raw-loader!@/assets/HDMap20231203/HDMap20231203.md"
 
 export {default as news90000} from "raw-loader!@/assets/news/FirstNews.md"
+export {default as news90001} from "raw-loader!@/assets/news/ICASSP20231217.md"
 
 export const articles = [
     {
@@ -66,5 +67,13 @@ export const news = [
         createTime: "2021.07.07",
         editTime: "2021.07.07",
         description: "You can find development news and other important announcements here."
+    },
+    {
+        id: "90001",
+        title: "HD Map construction paper accepted in ICASSP 2024",
+        author: "Honminden",
+        createTime: "2023.12.17",
+        editTime: "2023.12.17",
+        description: "Our paper BUFFERED GAUSSIAN MODELING FOR VECTORIZED HD MAP CONSTRUCTION is accepted in ICASSP 2024."
     }
 ]
