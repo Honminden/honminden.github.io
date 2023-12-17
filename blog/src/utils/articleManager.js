@@ -19,6 +19,11 @@ export default class ArticleManager
         return this.meta.news;
     }
 
+    getPin()
+    {
+        return this.meta.pin;
+    }
+
     getRawArticle(category, id)
     {
         return this.meta[`${category}${id}`];

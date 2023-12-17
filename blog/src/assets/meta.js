@@ -77,3 +77,5 @@ export const news = [
         description: "Our paper BUFFERED GAUSSIAN MODELING FOR VECTORIZED HD MAP CONSTRUCTION is accepted in ICASSP 2024."
     }
 ]
+
+export const pin = ["90001", "5"]
